@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" data_testid="name" name="user_name"
+        placeholder="Enter your name" required autocomplete="off"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <label for="gender">Male</label>
+        <input type="radio" data_testid="male" name="gender" value="male">
+        <label for="gender">Female:</label>
+        <input type="radio"data_testid="female" name="gender" value="female">
+        <br><br>
+        <label for="email">Email:</label><br>
+        <input type="email"data_testid="email" name="user_email"
+        placeholder="your.email@example.com" required autocomplete="off">
+        <br><br>
+        <label for="password">Password:</label><br>
+        <input type="password"data_testid="password" name="user_password" required autocomplete="off"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="user_message"
+        rows="5" cols="30" placeholder="Type your message here..."
+        autocomplete="off"></textarea><br><br>
+        <select name="message type">
+            <option value="facebook">Facebook</option> 
+            <option value="instagram">Instagram</option> 
+            <option value="whatsapp">Whatsapp</option>
+            <option value="email">Email</option>
+        </select><br><br>
+
+        <label for="agree">I am a human.:</label><br>
+        <input type="checkbox" id="agree" name="agree" value="yes"><br><br>
+        <button type="submit">Send Message</button>
+
+
+         
+    </form>
+    
+</body>
+</html>
